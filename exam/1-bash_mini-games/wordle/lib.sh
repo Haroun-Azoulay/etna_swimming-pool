@@ -7,7 +7,6 @@ function getRandomWord() {
 
     index=$(($RANDOM % $size))
 
-    mot= 
     echo ${words[$index]}
 }
 

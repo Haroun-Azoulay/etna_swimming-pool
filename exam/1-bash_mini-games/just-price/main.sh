@@ -1,6 +1,5 @@
 #!/bin/bash -x
 
-
 echo "----------------------------------- Welcome to the just price -----------------------------------"
 
 # max random for indication 32767
