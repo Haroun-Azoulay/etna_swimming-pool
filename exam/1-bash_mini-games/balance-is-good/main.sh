@@ -6,7 +6,7 @@ calculNumber=($(shuf -i 1-100 -n 5))
 guessNumber=$((1 + $RANDOM % 100))
 turn=0
 
-function isInLit() {
+function isInList() {
     number=$1
     for element in "${calculNumber[@]}"; do
         if [ "$element" -eq "$number" ]; then
@@ -33,7 +33,7 @@ while true; do
     allNumbersInList=true
 
     for number in "${checkChoiceNumber[@]}"; do
-        if ! isInLit "$number"; then
+        if ! isInList "$number"; then
             allNumbersInList=false
             break
         fi
