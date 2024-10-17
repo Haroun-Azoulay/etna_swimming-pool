@@ -1,0 +1,48 @@
+{
+  "boats": [
+    {
+      "name": "Destroyer",
+      "positions": 2,
+      "quantity": 2,
+      "weapons": ["Cannon", "Torpedo"],
+      "crew": {
+        "captain": "Mohammed Morroco",
+        "officers": 3,
+        "sailors": 10
+      }
+    },
+    {
+      "name": "Submarine",
+      "positions": 3,
+      "quantity": 1,
+      "weapons": ["Torpedo", "Missile"],
+      "crew": {
+        "captain": "Fernand islands",
+        "officers": 3,
+        "sailors": 10
+      }
+    },
+    {
+      "name": "Battleship",
+      "positions": 4,
+      "quantity": 1,
+      "weapons": ["Cannon", "Missile", "Anti-aircraft"],
+      "crew": {
+        "captain": "Jessy portugal",
+        "officers": 10,
+        "sailors": 50
+      }
+    },
+    {
+        "name": "Cruser",
+        "positions": 5,
+        "quantity": 1,
+        "weapons": ["Laser", "Missile", "Bombe"],
+        "crew": {
+          "captain": "Racha algeria",
+          "officers": 40,
+          "sailors": 100
+        }
+      }
+  ]
+}
