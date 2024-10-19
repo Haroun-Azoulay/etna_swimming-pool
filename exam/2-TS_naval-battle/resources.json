@@ -1,8 +1,8 @@
 {
-  "boats": [
+  "ships": [
     {
       "name": "Destroyer",
-      "positions": 2,
+      "length": 2,
       "quantity": 2,
       "weapons": ["Cannon", "Torpedo"],
       "crew": {
@@ -13,7 +13,7 @@
     },
     {
       "name": "Submarine",
-      "positions": 3,
+      "length": 3,
       "quantity": 1,
       "weapons": ["Torpedo", "Missile"],
       "crew": {
@@ -24,7 +24,7 @@
     },
     {
       "name": "Battleship",
-      "positions": 4,
+      "length": 4,
       "quantity": 1,
       "weapons": ["Cannon", "Missile", "Anti-aircraft"],
       "crew": {
@@ -34,15 +34,26 @@
       }
     },
     {
-        "name": "Cruser",
-        "positions": 5,
-        "quantity": 1,
-        "weapons": ["Laser", "Missile", "Bombe"],
-        "crew": {
-          "captain": "Racha algeria",
-          "officers": 40,
-          "sailors": 100
-        }
+      "name": "Cruser",
+      "length": 5,
+      "quantity": 1,
+      "weapons": ["Laser", "Missile", "Bomb"],
+      "crew": {
+        "captain": "Racha algeria",
+        "officers": 40,
+        "sailors": 100
       }
+    },
+    {
+      "name": "Raft",
+      "length": 1,
+      "quantity": 1,
+      "weapons": ["stick", "stone"],
+      "crew": {
+        "captain": "Arthur france",
+        "officers": 0,
+        "sailors": 2
+      }
+    }
   ]
 }
